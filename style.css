@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f6ff;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #5a3e85;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form select,
+.task-form button {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #6c5ce7;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.section-header {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  background: #eee;
+}
+
+.hidden {
+  display: none;
+}
+
+.progress-bar {
+  background: #ddd;
+  height: 8px;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+.progress {
+  height: 8px;
+  background: #6c5ce7;
+  border-radius: 4px;
+  width: 0%;
+  transition: width 0.3s;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f0fa;
+  padding: 6px;
+  margin: 4px 0;
+  border-radius: 6px;
+}
+
+.delete-btn {
+  background: rgb(241, 241, 241);
+  color: rgb(209, 84, 84);
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* pushes buttons to the right edge */
+  padding: 8px;
+  background: #f4f4f9;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.cat-name {
+  cursor: pointer;
+}
+
+.cat-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.cat-actions button {
+  background: #919191;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.cat-actions button:hover {
+  background: #5c5656;
+}
